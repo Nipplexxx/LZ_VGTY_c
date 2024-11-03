@@ -18,7 +18,7 @@ namespace LZ2
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 f1 = new Form1();
+            Main f1 = new Main();
             f1.ShowDialog();
         }
         private double CalculateY(double x, double a, double b)

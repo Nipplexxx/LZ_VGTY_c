@@ -18,8 +18,8 @@ namespace LZ2
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form3 f3 = new Form3();
-            f3.ShowDialog();
+            Main f1 = new Main();
+            f1.ShowDialog();
         }
 
         private double CalculateF(double x)
