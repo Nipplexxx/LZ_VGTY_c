@@ -51,5 +51,19 @@ namespace LZ2
             Form5 f5 = new Form5();
             f5.ShowDialog();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form6 f6 = new Form6();
+            f6.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form7 f7 = new Form7();
+            f7.ShowDialog();
+        }
     }
 }
